@@ -106,28 +106,8 @@ body {
     width: 100%;
   }
   
-  /* Button in the top right corner */
-.top-right-button {
-    position: fixed;
-    top: 10px;
-    right: 20px;
-    background-color: #0056b3; /* Dark blue */
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    z-index: 1000; /* Ensure it's above other content */
-}
-
-.top-right-button:hover {
-    background-color: #003f7f; /* Even darker blue on hover */
-}
-
-  
   /* Chatbot Styles */
-  /* .chatbot-icon {
+  .chatbot-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -202,4 +182,9 @@ body {
   .chatbot-input button:hover {
     background-color: #003f7f;
   }
-   */
+    /* Set the size of the map */
+    #map {
+        height: 400px; /* Adjust height as needed */
+        width: 100%; /* Full width */
+        margin-top: 20px; /* Add some space above the map */
+    }
