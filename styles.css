@@ -108,7 +108,7 @@ body {
   
   
   /* Chatbot Styles */
-  /* .chatbot-icon {
+  .chatbot-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -183,4 +183,9 @@ body {
   .chatbot-input button:hover {
     background-color: #003f7f;
   }
-   */
+    /* Set the size of the map */
+    #map {
+        height: 400px; /* Adjust height as needed */
+        width: 100%; /* Full width */
+        margin-top: 20px; /* Add some space above the map */
+    }
