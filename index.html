@@ -79,18 +79,17 @@
     <img src="chatbot-icon.png" alt="Chatbot">
   </div>
 
-  <div id="chatbot-window" class="chatbot-window">
-    <div class="chatbot-header">
-      <span>Chat with SafeSphere</span>
-      <button onclick="toggleChatbot()">Close</button>
-    </div>
-    <div id="chatbot-messages" class="chatbot-messages"></div>
-    <div class="chatbot-input">
-      <input type="text" id="chatbot-input" placeholder="Type a message">
-      <button onclick="sendChatbotMessage()">Send</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+  <script>
+    window.embeddedChatbotConfig = {
+        chatbotId: "GCm3grGCzdSrI6bDGdwpI",
+        domain: "www.chatbase.co"
+    }
+</script>
+<script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="GCm3grGCzdSrI6bDGdwpI"
+    domain="www.chatbase.co"
+    defer>
+</script>
 </body>
 </html>
