@@ -107,7 +107,7 @@ body {
   }
   
   /* Chatbot Styles */
-  .chatbot-icon {
+  /* .chatbot-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -182,4 +182,4 @@ body {
   .chatbot-input button:hover {
     background-color: #003f7f;
   }
-  
+   */
